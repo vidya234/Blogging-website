@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@vidya_123/medium-common": "^1.0.0",
+    "bcrypt": "^5.1.1",
+    "hono": "^4.1.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "@types/bcrypt": "^5.0.2",
+    "wrangler": "^3.32.0"
+  }
+}
