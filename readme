@@ -1,0 +1,8 @@
+This project is a serverless web application that leverages modern technologies to provide a seamless and secure user experience. It is built using the Hono framework on Cloudflare Workers for serverless functions, Prisma as an ORM for PostgreSQL database interactions, and JWT for secure user authentication. The front end is developed with React and styled using the Tailwind CSS framework, ensuring a responsive and modern user interface.
+
+Features
+Serverless architecture using Cloudflare Workers and the Hono framework
+PostgreSQL database integration with Prisma ORM
+Secure user authentication with JWT
+Input validation with Zod
+Responsive and modern UI with React and Tailwind CSS
